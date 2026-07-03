@@ -179,3 +179,12 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Raw data — sourced from Inside Airbnb, too large / unnecessary to version
+listings.csv
+calendar.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
