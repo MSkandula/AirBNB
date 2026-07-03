@@ -32,6 +32,7 @@ This was found first through manual exploratory analysis, then **independently c
 ## Objective
 
 Binary classification: is a listing **"top-tier"** (`review_scores_rating` ≥ 4.9, chosen by testing class balance across several cutoffs, not by picking a percentile)? Restricted to listings with ≥ 5 reviews, to avoid rewarding small-sample noise (a 2-review listing with a perfect 5.0 rating is not evidence of quality).
+<img width="1200" height="1406" alt="sydney airbnb project poster" src="https://github.com/user-attachments/assets/db6e440a-7035-4748-bb9c-34f1a16eedbc" />
 
 ## Methodology
 
