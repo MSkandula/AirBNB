@@ -88,7 +88,6 @@ And here's the honest part I'm proud of: **fixing the leakage barely changed the
 
 **Checking whether the probabilities are honest.** I tested calibration — basically, when the model says "70% likely," does that actually happen 70% of the time? It doesn't. The model is over-confident, which is a known side effect of the way I handled the class imbalance. So the probabilities are fine for *ranking* listings but shouldn't be read as literal confidence. I put this in the project even though it's unflattering, because knowing the limits of your own model is the whole point.
 
-🖼️ *(calibration curve — optional)*
 
 ---
 
